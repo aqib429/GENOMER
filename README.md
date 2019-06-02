@@ -1,0 +1,3 @@
+$EpiGenomics
+Epigenomics is the study of the complete set of epigenetic modifications on the genetic material of a cell, known as the epigenome. The field is analogous to genomics and proteomics, which are the study of the genome and proteome of a cell.
+pigenetic modifications are reversible modifications on a cell's DNA or histones that affect gene expression without altering the DNA sequence.Epigenomic maintenance is a continuous process and plays an important role in stability of eukaryotic genomes by taking part in crucial biological mechanisms like DNA repairEpigenetic modifications play an important role in gene expression and regulation, and are involved in numerous cellular processes such as in differentiation and development  and tumorigenesis.
