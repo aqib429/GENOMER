@@ -1,0 +1,923 @@
+% Template for PLoS
+% Version 3.5 March 2018
+%
+% % % % % % % % % % % % % % % % % % % % % %
+%
+% -- IMPORTANT NOTE
+%
+% This template contains comments intended 
+% to minimize problems and delays during our production 
+% process. Please follow the template instructions
+% whenever possible.
+%
+% % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Once your paper is accepted for publication, 
+% PLEASE REMOVE ALL TRACKED CHANGES in this file 
+% and leave only the final text of your manuscript. 
+% PLOS recommends the use of latexdiff to track changes during review, as this will help to maintain a clean tex file.
+% Visit https://www.ctan.org/pkg/latexdiff?lang=en for info or contact us at latex@plos.org.
+%
+%
+% There are no restrictions on package use within the LaTeX files except that 
+% no packages listed in the template may be deleted.
+%
+% Please do not include colors or graphics in the text.
+%
+% The manuscript LaTeX source should be contained within a single file (do not use \input, \externaldocument, or similar commands).
+%
+% % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- FIGURES AND TABLES
+%
+% Please include tables/figure captions directly after the paragraph where they are first cited in the text.
+%
+% DO NOT INCLUDE GRAPHICS IN YOUR MANUSCRIPT
+% - Figures should be uploaded separately from your manuscript file. 
+% - Figures generated using LaTeX should be extracted and removed from the PDF before submission. 
+% - Figures containing multiple panels/subfigures must be combined into one image file before submission.
+% For figure citations, please use "Fig" instead of "Figure".
+% See http://journals.plos.org/plosone/s/figures for PLOS figure guidelines.
+%
+% Tables should be cell-based and may not contain:
+% - spacing/line breaks within cells to alter layout or alignment
+% - do not nest tabular environments (no tabular environments within tabular environments)
+% - no graphics or colored text (cell background color/shading OK)
+% See http://journals.plos.org/plosone/s/tables for table guidelines.
+%
+% For tables that exceed the width of the text column, use the adjustwidth environment as illustrated in the example table in text below.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- EQUATIONS, MATH SYMBOLS, SUBSCRIPTS, AND SUPERSCRIPTS
+%
+% IMPORTANT
+% Below are a few tips to help format your equations and other special characters according to our specifications. For more tips to help reduce the possibility of formatting errors during conversion, please see our LaTeX guidelines at http://journals.plos.org/plosone/s/latex
+%
+% For inline equations, please be sure to include all portions of an equation in the math environment.  For example, x$^2$ is incorrect; this should be formatted as $x^2$ (or $\mathrm{x}^2$ if the romanized font is desired).
+%
+% Do not include text that is not math in the math environment. For example, CO2 should be written as CO\textsubscript{2} instead of CO$_2$.
+%
+% Please add line breaks to long display equations when possible in order to fit size of the column. 
+%
+% For inline equations, please do not include punctuation (commas, etc) within the math environment unless this is part of the equation.
+%
+% When adding superscript or subscripts outside of brackets/braces, please group using {}.  For example, change "[U(D,E,\gamma)]^2" to "{[U(D,E,\gamma)]}^2". 
+%
+% Do not use \cal for caligraphic font.  Instead, use \mathcal{}
+%
+% % % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Please contact latex@plos.org with any questions.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+
+% amsmath and amssymb packages, useful for mathematical formulas and symbols
+\usepackage{amsmath,amssymb}
+
+% Use adjustwidth environment to exceed column width (see example table in text)
+\usepackage{changepage}
+
+% Use Unicode characters when possible
+\usepackage[utf8x]{inputenc}
+
+% textcomp package and marvosym package for additional characters
+\usepackage{textcomp,marvosym}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+% Use nameref to cite supporting information files (see Supporting Information section for more info)
+\usepackage{nameref,hyperref}
+
+% line numbers
+\usepackage[right]{lineno}
+
+% ligatures disabled
+\usepackage{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+
+% color can be used to apply background shading to table cells only
+\usepackage[table]{xcolor}
+
+% array package and thick rules for tables
+\usepackage{array}
+
+% create "+" rule type for thick vertical lines
+\newcolumntype{+}{!{\vrule width 2pt}}
+
+% create \thickcline for thick horizontal lines of variable length
+\newlength\savedwidth
+\newcommand\thickcline[1]{%
+  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+  \cline{#1}%
+  \noalign{\vskip\arrayrulewidth}%
+  \noalign{\global\arrayrulewidth\savedwidth}%
+}
+
+% \thickhline command for thick horizontal lines that span the table
+\newcommand\thickhline{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+\hline
+\noalign{\global\arrayrulewidth\savedwidth}}
+
+
+% Remove comment for double spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+% Text layout
+\raggedright
+\setlength{\parindent}{0.5cm}
+\textwidth 5.25in 
+\textheight 8.75in
+
+% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
+% Captions will be left justified
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+\renewcommand{\figurename}{Fig}
+
+% Use the PLoS provided BiBTeX style
+%\bibliographystyle{plos2015}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+
+% Header and Footer with logo
+\usepackage{lastpage,fancyhdr,graphicx}
+\usepackage{epstopdf}
+%\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+%\setlength{\headheight}{27.023pt}
+%\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
+\fancyheadoffset[L]{2.25in}
+\fancyfootoffset[L]{2.25in}
+\lfoot{\today}
+
+%% Include all macros below
+
+\newcommand{\lorem}{{\bf LOREM}}
+\newcommand{\ipsum}{{\bf IPSUM}}
+
+%% END MACROS SECTION
+\usepackage{wasysym}
+\usepackage[nottoc]{tocbibind}
+
+\begin{document}
+\vspace*{0.2in}
+
+% Title must be 250 characters or less.
+\begin{flushleft}
+{\Huge
+\textbf\newline{Epigenomics} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
+}
+\newline
+\bigskip
+% Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
+\\
+\large \textbf{Bilal Wajid}\textsuperscript{1}, \textbf{Noor ur Rehman}\textsuperscript{1*}, \textbf{Saad Khan}\textsuperscript{1}, \textbf{Aqib Ahmed}\textsuperscript{1} \textbf{and} \\ \textbf{Ali Haider}\textsuperscript{1}
+\\
+\bigskip
+\begin{small}
+\textbf{1} Department of Electrical Engineering, Istanbul Commerce University, Istanbul, Turkey and
+\\
+\end{small}
+\medskip
+\begin{small}
+\textbf{*} To whom correspondence should be addressed
+\\
+\end{small}
+\medskip
+\bigskip
+\textbf{{\LARGE Supplementary Tables}}
+\bigskip
+% Insert additional author notes using the symbols described below. Insert symbol callouts after author names as necessary.
+% 
+% Remove or comment out the author notes below if they aren't used.
+%
+% Primary Equal Contribution Note
+
+% Additional Equal Contribution Note
+% Also use this double-dagger symbol for special authorship notes, such as senior authorship.
+
+% Current address notes
+ % change symbol to "\textcurrency a" if more than one current address note
+% \textcurrency b Insert second current address 
+% \textcurrency c Insert third current address
+
+% Deceased author note
+
+% Group/Consortium Author Note
+
+% Use the asterisk to denote corresponding authorship and provide email address in note below.
+\end{flushleft}
+
+% Please keep the abstract below 300 words
+A specific criteria is used for enclosure of tools in Epigenomics. Softwares which are included are due to these specific reasons:
+\begin{itemize}
+\item Publication Date
+\item Freeware License
+\item Linux Based
+\item Offline
+\end{itemize}
+\bigskip
+% Please keep the Author Summary between 150 and 200 words
+% Use first person. PLOS ONE authors please skip this step. 
+% Author Summary not valid for PLOS ONE submissions.
+%\section*{Author summary}
+
+\linenumbers
+
+% Use "Eq" instead of "Equation" for equation citations.
+%\section*{Introduction}
+
+
+
+%\section*{Materials and methods}
+%\subsection*{Etiam eget sapien nibh}
+
+% For figure citations, please use "Fig" instead of "Figure".
+
+% Place figure captions after the first paragraph in which they are cited.
+
+% Results and Discussion can be combined.
+%\section*{Results}
+
+% Place tables after the first paragraph in which they are cited.
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{center}
+\textbf{Table 1. Epigenomics Selection Criteria.}
+\end{center}
+\bigskip
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ 
+\hline
+\hline
+\multicolumn{7}{|c|}{\textbf{DNA-Protein interactions}} \\
+\thickhline
+\hline
+\multicolumn{7}{|c|}{\textit{4C-seq analysis}} \\ \hline
+\hline
+1 & 4C-ker\cite{raviram20164c} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+2 & Basic4Cseq\cite{walter2014basic4cseq} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+3 & FourCSeq\cite{klein2015fourcseq} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+4 & fourSig\cite{williams2014foursig} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+5 & HTSstation\cite{david2014htsstation} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+6 & w4CSeq\cite{cai2016w4cseq} & $\checked$ & $\checked$ &  &  &  \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{5C-seq analysis}} \\ \hline
+\hline
+7 & HiFive\cite{sauria2015hifive} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+8 & MCMC5C\cite{rousseau2011three} & & $\checked$ & $\checked$ & $\checked$ & \\
+9 & ShRec3D\cite{lesne20143d} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+10 & Sushi.R\cite{phanstiel2014sushi} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{3C-seq analysis}} \\ \hline
+\hline
+11 & chromoHBM\cite{shavit2015hierarchical} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+12 & InfMod3DGen\cite{wang2015inferential} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+13 & r3Cseq\cite{thongjuea2013r3cseq} & & $\checked$ & $\checked$ & $\checked$ & \\ \hline 
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ 
+\hline
+\hline
+\multicolumn{7}{|c|}{\textit{ChIP-on-chip analysis}} \\ \hline
+\hline
+14 & GeneNetworkBuilder\cite{ou2013genenetworkbuilder} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+15 & kmerHMM\cite{wong2013dna} & & $\checked$ & $\checked$ & $\checked$ & \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{ChIA-PET analysis}} \\ \hline
+\hline
+16 &  Mango\cite{phanstiel2015mango} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+17   & 3D-GNOME\cite{szalaj20163d} & $\checked$ & $\checked$ &  &  &  \\ 
+18 & diffloop\cite{lareau2017diffloop} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+19 & ChiaSig\cite{paulsen2014statistical} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+20 & Delta\cite{tang2017delta} &  $\checked$ & $\checked$ &  &  & \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{ChIP-exo analysis}} \\ \hline
+\hline
+21 & ChIP-nexus\cite{he2015chip} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+22 & PeakXus\cite{hartonen2016peakxus} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+23 & CexoR\cite{madrigal2015cexor} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+24 & Q-nexus\cite{hansen2016q} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{DNA-protein interaction analysis}} \\ \hline
+\hline
+\multicolumn{7}{|c|}{Chromatin-state detection} \\ \hline
+\hline
+25 & chromstaR\cite{taudt2016chromstar} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+26 & hiHMM\cite{sohn2015hihmm} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+27 & EpiCSeg\cite{mammana2015chromatin} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+28 & GenoSTAN\cite{zacher2017accurate} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+29 & Deopen\cite{liu2017chromatin} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{Histone modification prediction} \\ \hline
+\hline
+30 & DeepChrome\cite{singh2016deepchrome} & $\checked$ & $\checked$ &  &  &  \\ 
+31 & Mutalisk\cite{lee2018mutalisk} & $\checked$ & $\checked$ & & &  \\ 
+32 & DeepDiff\cite{sekhon2018deepdiff} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{Unclassified Tools} \\ \hline
+\hline
+33 & TRX-LOGOS\cite{fortin2015trx} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{DNA-protein interaction Databases}} \\ \hline 
+\hline
+\multicolumn{7}{|c|}{Chromatin-state databases} \\ \hline
+\hline
+34 & Cistrome DB\cite{mei2016cistrome} & $\checked$ & $\checked$ & & &  \\ \hline
+\hline
+\multicolumn{7}{|c|}{Histone modification prediction} \\ \hline
+\hline
+35 & EpiFactors\cite{medvedeva2015epifactors} & $\checked$ & $\checked$ & &  & \\ 
+36 & dbHiMo\cite{choi2015dbhimo} & $\checked$ & $\checked$ & &  & \\ 
+37 & WERAM\cite{xu2016weram} &   $\checked$ & $\checked$ & &  & \\ \hline
+\hline
+\multicolumn{7}{|c|}{Chromatine interaction databases} \\ 
+\hline
+38 & TFmapper\cite{zeng2018tfmapper} & $\checked$ & $\checked$ & & &  \\ 
+39 & Multicontactchromatin\cite{allahyar2017locus} & $\checked$ & $\checked$ & &  &  \\ 
+40 & 3DGD\cite{li20143dgd} & $\checked$ & $\checked$ & &  &  \\ 
+41 & 4DGenome\cite{teng20154dgenome} & $\checked$ & $\checked$ & &  &  \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textbf{Nucleosome positioning}} \\  \thickhline
+\hline
+\multicolumn{7}{|c|}{\textit{Nucleosome positioning}} \\ 
+\hline
+\hline
+42 & nuMAP\cite{cui2010structure} & $\checked$ & $\checked$ & &  &  \\ 
+43 & iNuc-PseKNC\cite{guo2014inuc} & $\checked$ & $\checked$ & &  &  \\ 
+44 & LeNup\cite{zhang2018lenup} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ 
+\hline
+\hline
+\multicolumn{7}{|c|}{\textit{ATAC-seq analysis}} \\ \hline
+\hline
+45 & SUSHI\cite{hatakeyama2016sushi} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+46 & ATACseqQC\cite{ou2018atacseqqc} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{Chromatin accessibility and TF Activity} \\ 
+\hline
+\hline
+47 & I-ATAC\cite{ahmed2017atac} & $\checked$ & $\checked$ & $\checked$ & & \\ 
+48 & HMMRATAC\cite{tarbell2018hmmratac} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+49 & MMARGE\cite{link2018mmarge} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+50 & DAStk\cite{tripodi2018detecting} & $\checked$ & $\checked$ & & $\checked$ & \\ 
+51 & DeepATAC\cite{hiranuma2017deepatac} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{single cell ATAC-seq analysis} \\ \hline
+\hline
+52 & chromVAR\cite{schep2017chromvar} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+53 & cisTopic\cite{bravo2018cis} &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+54 & plate-scATAC-seq\cite{chen2018rapid}  &  $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{Bioinformatics workflows} \\ \hline
+\hline
+55 & atacR\cite{shrestha2018workflow} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+56 & ATAC-pipe\cite{zuo2018atac} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+57 & esATAC\cite{wei2018esatac} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textbf{Bioinformatics tools}} \\ 
+\thickhline
+\hline
+\multicolumn{7}{|c|}{\textit{Epigenome Data Visualization}} \\ 
+\hline
+\hline
+\multicolumn{7}{|c|}{Tag density plot visualization} \\ \hline
+\hline
+58 & ngs.plot\cite{shen2014ngs} & $\checked$ & & $\checked$ & $\checked$ &  \\ 
+59 & ChIPseeker\cite{yu2015chipseeker} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+60 & SeqPlots\cite{stempor2016seqplots} & $\checked$ & $\checked$ & $\checked$ & &  \\
+61 & metaseq\cite{dale2014metaseq} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+62 & iTagPlot\cite{kim2015itagplot} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{Venn diagram creation} \\ \hline
+\hline
+63 & gplots\cite{warnes2016package} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+64 & eulerAPE\cite{micallef2014eulerape} & $\checked$ & $\checked$ & $\checked$ & & \\
+65 & jvenn\cite{bardou2014jvenn} & $\checked$ & $\checked$ & & & \\
+66 & Vennerable\cite{swinton2009venn} & & $\checked$ & $\checked$ & $\checked$ & \\
+67 & OrthoVenn\cite{wang2015orthovenn} & $\checked$ & $\checked$ & & & \\
+68 & GeneVenn\cite{pirooznia2007genevenn} & & $\checked$ & & & \\
+69 & venneuler\cite{wilkinson2012exact} & & $\checked$ & $\checked$ & $\checked$ & \\
+70 & Anduril\cite{ovaska2010large} & & $\checked$ & $\checked$ & $\checked$ & \\
+71 & VennMaster\cite{kestler2008vennmaster} & & $\checked$ & $\checked$ & $\checked$ & \\
+72 & VENNTURE\cite{martin2012vennture} & & $\checked$ & & &  \\
+73 & CanvasXpress\cite{zhang2017canvasxpress} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+74 & VennBLAST\cite{zahavi2015vennblast} & $\checked$ & $\checked$ & & & \\
+75 & canvasDesigner\cite{zhang2018canvasdesigner} & $\checked$ & $\checked$ & & & \\
+76 & BioVenn\cite{hulsen2008biovenn} & & $\checked$ & & & \\ 
+77 & AnyExpress\cite{kim2011anyexpress} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+78 & DrawVenn\cite{carroll2000drawing} & & $\checked$ & $\checked$ & & \\ 
+79 & NeuVenn\cite{gao2018neutools} & $\checked$ & $\checked$ & & & \\ \hline
+\hline
+\multicolumn{7}{|c|}{DNA methylation visualization} \\ \hline
+\hline
+80 & EpiExplorer\cite{halachev2012epiexplorer} & & $\checked$ & & & \\
+81 & CpGviewer\cite{carr2007sequence} & & $\checked$ & & & \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ \hline
+\hline
+82 & VizHub\cite{hotez2016blue} & $\checked$ & $\checked$ & & & \\
+83 & methyAnalysis\cite{du2013methyanalysis} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+84 & MethylViewer\cite{pardo2010methylviewer} & & $\checked$ & $\checked$ & $\checked$ & \\
+85 & methVisual\cite{zackay2010methvisual} & & $\checked$ & $\checked$ & $\checked$ & \\
+86 & Epiviz\cite{chelaru2014epiviz} & $\checked$ & $\checked$ & & & \\
+87 & MethPat\cite{wong2016methpat} & $\checked$ & $\checked$ & & $\checked$ & \\
+88 & TABSAT\cite{pabinger2016analysis} & $\checked$ &  $\checked$ & & & \\
+89 & Epigenomics in JBrowse\cite{hofmeister2018enhanced} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\
+90 & iMethy\cite{leakey1990simultaneous} & & $\checked$ & $\checked$ &$\checked$  & \\
+91 & Methylyzer\cite{fernandez2009dynamic} & & $\checked$ & & & \\
+92 & BSviewer\cite{sun2017bsviewer} & $\checked$ & & $\checked$ & $\checked$ & \\
+93 & MeViz\cite{perez2018storage} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+94 & chroGPS\cite{font2013chrogps} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+95 & MassArray\cite{gabriel2009snp} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+96 & MethTools\cite{grunau2000methtools} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+97 & Methylmapper\cite{ordway2005methylmapper} & & $\checked$ & $\checked$ & $\checked$ & \\ \hline
+\hline
+\multicolumn{7}{|c|}{Genome Viewers} \\ \hline
+\hline
+98 & EMBOSS\cite{rice2000emboss} & & $\checked$ & $\checked$ & & \\ 
+99 & GBrowse\cite{donlin2009using} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+100 & JBrowse\cite{skinner2009jbrowse} & & $\checked$ & & & \\ 
+101 & rtracklayer\cite{lawrence2009rtracklayer} & & $\checked$ & $\checked$ & & \\ 
+102 & ZENBU\cite{severin2014interactive} & $\checked$ & $\checked$ & & & \\ 
+103 & ggbio\cite{yin2012ggbio} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+104 & Apollo\cite{lee2009apollo} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+105 & GenePlotter\cite{humburg2012using} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+106 & Fastbreak\cite{bressler2012fastbreak} & & $\checked$ & & & \\ 
+107 & Microreact\cite{argimon2016microreact} & $\checked$ & $\checked$ & & & \\ 
+108 & GenomeView\cite{abeel2011genomeview} & & $\checked$ & $\checked$ & & \\ 
+109 & gaggle\cite{shannon2006gaggle} & & $\checked$ & $\checked$ & & \\ 
+110 & GenomeGraphs\cite{durinck2009genomegraphs} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+111 & GenVisR\cite{skidmore2016genvisr} & $\checked$ & $\checked$ & $\checked$ & & \\ 
+112 & GenomeJack\cite{satoh2013molecular} & & $\checked$ & $\checked$ & & \\ 
+113 & GenPlay\cite{lajugie2011genplay} & & $\checked$ & $\checked$ & & \\ 
+114 & SynTView\cite{lechat2013syntview} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+115 & FriPan\cite{exner1985quantitative} & & $\checked$ & & & \\ 
+116 & IGV\cite{thorvaldsdottir2013integrative} & & $\checked$ & & & \\ 
+117 & Circleator\cite{crabtree2014circleator} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+118 & GenePalette\cite{rebeiz2004genepalette} & & & $\checked$ & & \\ 
+119 & VisSR\cite{chesters1983low} & & $\checked$ & $\checked$ & & \\ 
+120 & 3D Genome Browser\cite{butyaev2015low} & $\checked$ & $\checked$ & & & \\ 
+121 & TASUKE\cite{kumagai2013tasuke} & & $\checked$ & $\checked$ & & \\ 
+122 & Gff2ps\cite{abril2000gff2ps} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+123 & CisGenome Browser\cite{jiang2010cisgenome} & & & $\checked$ & & \\ 
+124 & Trackster\cite{goecks2012ngs} & & $\checked$ & & &  \\ 
+125 & Genewindow\cite{staats2005genewindow} & & $\checked$ & & &  \\ 
+126 & IRscope\cite{amiryousefi2018irscope} & $\checked$ & $\checked$ & & & \\ 
+127 & WiggleTools\cite{zerbino2013wiggletools} & & $\checked$ & $\checked$ & & \\ 
+128 & Biodalliance\cite{down2011dalliance} & $\checked$ & $\checked$ & & & \\ 
+129 & DensityMap\cite{guizard2016densitymap} & & $\checked$ & & &  \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ \hline
+\hline
+130 & BasePlayer\cite{katainen2017baseplayer} & $\checked$ & $\checked$ & $\checked$ & & \\ 
+131 & ColoWeb\cite{kim2015coloweb} & $\checked$ & $\checked$ & & & \\ 
+132 & GenomicInteractions\cite{harmston2015genomicinteractions} & & $\checked$ & $\checked$ & $\checked$ &  \\ 
+133 & PlasmaDNA\cite{angers2007plasmadna} & & $\checked$ & & &  \\
+134 & EPIC-CoGe\cite{nelson2018epic} & $\checked$ & $\checked$ & & & \\ 
+135 & OmicBrowse\cite{toyoda2006omicbrowse} & & $\checked$ & & $\checked$ & \\ 
+136 & Cosmoss\cite{rensing2005protein} & & $\checked$ & & & \\ 
+137 & Pairoscope\cite{ding2010analysis} & & $\checked$ & $\checked$ & $\checked$ &  \\ 
+138 & BugView\cite{leader2004bugview} & & $\checked$ & $\checked$ & & \\ 
+139 & HiCBrowser\cite{yauy2018looking} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+140 & GenomePlot\cite{gibson2003genome} & & & $\checked$ & $\checked$ & \\
+141 & chromPlot\cite{orostica2016chromplot} & $\checked$ & & $\checked$ & $\checked$ & \\
+142 & caOmicsV\cite{zhang2016caomicsv} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+143 & karyoploteR\cite{gel2017karyoploter} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+144 & VisualRepbase\cite{tempel2008visualrepbase} & & $\checked$ & $\checked$ & & \\
+145 & PopFly\cite{hervas2017popfly} & & $\checked$ & & & \\
+146 & PBrowse\cite{szot2017pbrowse} & $\checked$ &  $\checked$ & & & \\
+147 & myGenomeBrowser\cite{carrere2017mygenomebrowser} & $\checked$ &  $\checked$ & & & \\
+148 & GUPPY\cite{ueno2003processing} & & & $\checked$ & $\checked$ & \\
+149 & tracktables\cite{rintoul2015trackable} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+150 & gFACs\cite{caballero2018gfacs} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+151 & Scribl\cite{miller2012scribl} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+152 & Idiogram\cite{matsuura1935contributions} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+153 & gtrellis\cite{gu2016gtrellis} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+154 & GeneViTo\cite{vernikos2003genevito} & & & $\checked$ & & \\
+155 & epiTAD\cite{creed2018epitad} & $\checked$ & $\checked$ & & & \\
+156 & Skittle\cite{seaman2009skittle} & & $\checked$ & & & \\
+157 & ERGO\cite{lenggenhager2007video} & & & $\checked$ & & \\
+158 & Blobsplorer\cite{kumar2013blobology} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+159 & SeqBox\cite{beccuti2017seqbox} & $\checked$ & & & $\checked$ & \\
+160 & ZMap\cite{wiemer2001software} & & $\checked$ & $\checked$ & $\checked$ & \\
+161 & CrossBrowse\cite{shenker2018crossbrowse} & $\checked$ & $\checked$ & $\checked$ & & \\
+162 & GenomeHubs\cite{challis2017genomehubs} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+163 & AncestryView\cite{zhao2018ancestryview} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+164 & SeqGenome Browser\cite{michel2013gwips} & & $\checked$ & $\checked$ & & \\
+165 & PopHuman\cite{casillas2017pophuman} & $\checked$ & $\checked$ & $\checked$ & & \\
+166 & Savant\cite{fiume2010savant} & & $\checked$ & $\checked$ & & \\
+167 & D3GB\cite{barrios2017d3gb} & $\checked$ & $\checked$ & $\checked$ & & \\
+168 & PoGo\cite{schlaffner2016pogo} & & $\checked$ & $\checked$ & $\checked$ & \\
+169 & chromoMap\cite{singh2014general} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+170 & Squiggle\cite{lee2018squiggle} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+171 & MitoZ\cite{meng2018mitoz}  & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+172 & Artemis\cite{carver2011artemis} & & $\checked$ & $\checked$ & & \\
+173 & ASCIIGenome\cite{beraldi2017asciigenome} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+174 & kmerPyramid\cite{kruppa2017kmerpyramid} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+175 & Paplot\cite{okada2017framework} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+176 & bulkVis\cite{payne2018whale} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+177 & FluentDNA\cite{salieb2009dna} & & $\checked$ & $\checked$ & $\checked$ &  \\ 
+178 & genomeview\cite{spies2018genomeview} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ \hline
+\hline
+179 & GC-Profile\cite{gao2006gc} & & $\checked$ & & &  \\ 
+180 & GeneTrack\cite{albert2008genetrack} & & $\checked$ & $\checked$ & $\checked$ &  \\ 
+181 & Genome2D\cite{baerends2004genome2d} & & $\checked$ & $\checked$ & & \\
+182 & GenomeComp\cite{yang2003genomecomp} & & $\checked$ & $\checked$ & & \\
+183 & HiView\cite{xu2016hiview} & $\checked$ & $\checked$ & & & \\
+184 & my5C\cite{lajoie2009my5c} & & $\checked$ & & & \\
+185 & ViewGene\cite{kashuk2002viewgene} & & & $\checked$ & $\checked$ & \\
+186 & chromoWIZ\cite{nussbaumer2014chromowiz} & $\checked$ & $\checked$ & & & \\
+187 & MetaLook\cite{lombardot2007metalook} & & $\checked$ & $\checked$ & & \\
+188 & LocusView\cite{smoller2008influence} & & $\checked$ & & $\checked$ & \\
+189 & ABrowse\cite{kong2012abrowse} & & $\checked$ & $\checked$ & & \\
+190 & GraphDNA\cite{thomas2007graphdna} & & $\checked$ & $\checked$ & & \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{Epigenome data enrichment}} \\ \hline
+\hline
+\multicolumn{7}{|c|}{Phenotype enrichment analysis} \\ \hline
+\hline
+191 & PrediXcan\cite{gamazon2015gene} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+192 & MamPhEA\cite{weng2010mamphea} & & $\checked$ & & & \\ 
+193 & PhenoNet\cite{ben2014phenonet} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+194 & POEAS\cite{shameer2014poeas} & $\checked$ & $\checked$ & & & \\ 
+195 & Phenopredict\cite{ellis2018improving} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+196 & DroPhEA\cite{weng2011dro} & & $\checked$ & & & \\ 
+197 & modPhEA\cite{weng2017mod} & $\checked$ & $\checked$ & & & \\
+198 & PhenotypeSeeker\cite{aun2018k} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ \hline
+\hline
+\multicolumn{7}{|c|}{Motif enrichment analysis} \\ \hline
+\hline
+199 & MEME-ChIP\cite{machanick2011meme} & & $\checked$ & & & \\ 
+200 & CentriMo\cite{lesluyes2014differential} & $\checked$ & $\checked$ & & & \\ 
+201 & BaMM!motif\cite{siebert2016bayesian} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+202 & Clover\cite{frith2004detection} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+203 & PASTAA\cite{roider2008pastaa} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+204 & CENTDIST\cite{zhang2011centdist} & & $\checked$ & & & \\ 
+205 & GOMo\cite{buske2010assigning} & & & $\checked$ & $\checked$ & \\ 
+206 & i-cisTarget\cite{herrmann2012cistarget} & & $\checked$ & & & \\ 
+207 & PWMEnrich\cite{stojnic2013overview} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+208 & RTFBSDB\cite{wang2016rtfbsdb} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\
+209 & hiddenDomains\cite{starmer2016detecting} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\
+210 & GANN\cite{beiko2005gann} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+211 & Regmex\cite{nielsen2018regmex} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\
+212 & POIMs\cite{sonnenburg2008poims} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+213 & GenFam\cite{bedre2018genfam} & $\checked$ & $\checked$ & & & \\ 
+214 & LocaMo Finder\cite{vandenbon2013parzen} & & $\checked$ & & & \\ 
+215 & chequeR\cite{centeno2016genome} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\
+216 & winflat\cite{audic1997significance} & & $\checked$ & $\checked$ & $\checked$ & \\
+217 & JFreq\cite{botez2007improved} & $\checked$ & $\checked$ & $\checked$ & & \\ 
+218 & GenometriCorr\cite{favorov2012exploring} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+219 & PscanChIP\cite{zambelli2013pscanchip} & & $\checked$ & & & \\ 
+220 & LOLA\cite{sheffield2015lola} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\
+221 & DRIMust\cite{leibovich2013drimust} & & $\checked$ & & & \\ 
+222 & genomation\cite{akalin2014genomation} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+223 & EDD\cite{morrell2017experiment} & $\checked$ & $\checked$ & & & \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ \hline
+\hline
+224 & ChIP-Part\cite{tsunoi2002method} & & $\checked$ & & & \\
+225 & LONUT\cite{wang2013locating} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+226 & MUSIC\cite{harmanci2014music} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+227 & MSR\cite{knijnenburg2014multiscale} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+228 & GREAT\cite{mclean2010great} & & $\checked$ & & & \\ 
+229 & RECAP\cite{chitpin2018recap} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+230 & Bedsect\cite{mishra2018bedsect} & $\checked$ & $\checked$ & & & \\ \hline
+\hline
+\multicolumn{7}{|c|}{Over-representation analysis} \\ \hline
+\hline
+231 & DAVID\cite{dennis2003david} & & $\checked$ & & & \\ 
+232 & Blast2GO\cite{conesa2005blast2go} & & & $\checked$ & & \\ 
+233 & BiNGO\cite{maere2005bingo} & & $\checked$ & $\checked$ & & \\
+234 & WEGO\cite{ye2006wego} & & $\checked$ & & & \\ 
+235 & WebGestalt\cite{zhang2005webgestalt} & & $\checked$ & & & \\
+236 & GOseq\cite{young2010gene} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+237 & ClueGO\cite{bindea2009cluego} & & & $\checked$ & & \\ 
+238 & GOstats\cite{falcon2006using} & & $\checked$ & $\checked$ & $\checked$ & \\
+239 & GenMAPP\cite{doniger2003mappfinder} & & $\checked$ & $\checked$ & $\checked$ & \\
+240 & GOstat\cite{beissbarth2004gostat} & & $\checked$ & & & \\ 
+241 & Babelomics\cite{alonso2015babelomics} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ 
+242 & GoMiner\cite{zeeberg2003gominer} & & $\checked$ & $\checked$ & $\checked$ & \\
+243 & GOEAST\cite{zheng2008goeast} & & $\checked$ & & & \\ 
+244 & FuncAssociate\cite{berriz2003characterizing} & & $\checked$ & & & \\ 
+245 & ArrayTrack\cite{tong2003arraytrack} & & $\checked$ & & & \\ 
+246 & FunSpec\cite{robinson2002funspec} & & $\checked$ & & & \\ 
+247 & GO-Elite\cite{zambon2012go} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+248 & GOAtools\cite{klopfenstein2018goatools} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+249 & PageMan\cite{usadel2006pageman} & & $\checked$ & $\checked$ & & \\ 
+250 & STEM\cite{ernst2006stem} & & & $\checked$ & $\checked$ & \\ 
+251 & ErmineJ\cite{gillis2010gene} & & $\checked$ & $\checked$ & $\checked$ & \\
+252 & CARMAweb\cite{rainer2006carmaweb} & & $\checked$ & & & \\
+253 & Onto-Tools\cite{draghici2003onto} & & $\checked$ & & & \\
+254 & EasyGO\cite{zhou2007easygo} & & $\checked$ & & & \\
+255 & CisFinder\cite{sharov2009exhaustive} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+256 & GOFFA\cite{sun2006goffa} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+257 & GOHyperGAll\cite{horan2008annotating} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+258 & BayGO\cite{vencio2006baygo} & & $\checked$ & & & \\ 
+259 & MET\cite{blatti2014motif} & $\checked$ & $\checked$ & & & \\
+260 & Categorizer\cite{na2014categorizer} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+261 & goCluster\cite{wrobel2005gocluster} & $\checked$ & $\checked$ & $\checked$ & & \\ 
+262 & myTAI\cite{drost2017mytai} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+263 & MOTVIS\cite{verwer2007mature} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+264 & RegulatorTrail\cite{kehl2017regulatortrail} & $\checked$ & $\checked$ & & & \\
+265 & GOexpress\cite{rue2016goexpress} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+266 & REA\cite{erhard2012rip} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+267 & GOTM\cite{zhang2004gotree} & & $\checked$ & & & \\ 
+268 & ProbCD\cite{vencio2007probcd} & & $\checked$ & & & \\ 
+269 & mvGST\cite{mecham2014mvgst} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+270 & OE2GO\cite{khatri2007onto} & & $\checked$ & & $\checked$ & \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ \hline
+\hline
+\multicolumn{7}{|c|}{Topology enrichment analysis} \\ \hline
+\hline
+271 & ChIPseeqer\cite{giannopoulou2011integrated} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+272 & HOMER\cite{heinz2010simple} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+273 & TopGO\cite{alexa2006improved} & & $\checked$ & & $\checked$ & \\ 
+274 & GeneCodis\cite{nogales2009genecodis} & & $\checked$ & & & \\
+275 & CHRONOS\cite{vrahatis2015chronos} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+276 & Ontologizer\cite{bauer2008ontologizer} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+277 & SPIA\cite{tarca2008novel} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+278 & GOSim\cite{frohlich2007gosim} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+279 & EnrichNet\cite{glaab2012enrichnet} & & $\checked$ & & & \\ 
+280 & SubpathwayMiner\cite{li2009subpathwayminer} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+281 & ProfCom\cite{antonov2008profcom} & & $\checked$ & & & \\ 
+282 & NOA\cite{wang2011noa} & & $\checked$ & $\checked$ & & \\ 
+283 & PathNet\cite{dutta2012pathnet} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+284 & BrainCell\cite{delahaye2016rare} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+285 & NetGSA\cite{ma2016network} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+286 & sLDA\cite{wu2009sparse} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+287 & DEGraph\cite{jacob2012package} & & $\checked$ & $\checked$ & $\checked$ & \\
+288 & GANPA\cite{fang2012network} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+289 & EnrichmentBrowser\cite{geistlinger2016bioconductor} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\
+290 & TEAK\cite{judeh2012teak} & & $\checked$ & $\checked$ & & \\
+291 & ToPASeq\cite{ihnatova2015topaseq} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+292 & topologyGSA\cite{massa2016package} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+293 & CePa\cite{gu2013cepa} & & $\checked$ & $\checked$ & $\checked$ & \\
+294 & timeClip\cite{martini2014timeclip} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+295 & PI\cite{bianco2016pathway} & $\checked$ & $\checked$ & & & \\
+296 & ICoVeR\cite{broeksema2017icover} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+297 & AMBIENT\cite{bryant2013ambient} & & $\checked$ & $\checked$ & $\checked$ & \\
+298 & ADGO\cite{nam2006adgo} & & $\checked$ & & & \\
+299 & ACST\cite{mieczkowski2012identification} & & $\checked$ & $\checked$ & $\checked$ & \\
+300 & MORPH\cite{amar2015morph} & $\checked$ & $\checked$ & $\checked$ & & \\ \hline
+\hline
+\multicolumn{7}{|c|}{Differential motif enrichment analysis} \\ \hline
+\hline
+301 & MultiGPS\cite{mahony2014integrated} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+302 & SANEFALCON\cite{straver2016calculating} & $\checked$ & & $\checked$ & $\checked$ & \\
+303 & MuSERA\cite{lam2016histones} & $\checked$ & & & & \\
+304 & DChIPRep\cite{chabbert2016dchiprep} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+305 & SignalSpider\cite{wong2014signalspider} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+306 & Jmosaics\cite{zeng2013jmosaics} & & $\checked$ & $\checked$ & $\checked$ &  \\ 
+307 & ChIPdig\cite{esse2017chipdig} & $\checked$ & $\checked$ & $\checked$ & & \\ \hline
+\hline
+\multicolumn{7}{|c|}{Gene set enrichment analysis} \\ \hline
+\hline
+308 & limma\cite{smyth2005use} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+309 & edgeR\cite{robinson2010edger} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+310 & DESeq2\cite{love2014moderated} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$  \\ 
+311 & GSEA\cite{subramanian2005gene} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+312 & xCell\cite{aran2017xcell} & $\checked$ & $\checked$ & & & \\
+313 & KOBAS\cite{wu2006kobas} & & $\checked$ & & & \\ 
+314 & KAAS\cite{moriya2007kaas} & & $\checked$ & & & \\ 
+315 & BaseSpace\cite{liu2014cushaw3} & $\checked$ & & $\checked$ & $\checked$ & \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ \hline
+\hline
+316 & Strand NGS\cite{wang2015ngs} & $\checked$ & & $\checked$ & & \\
+317 & GSVA\cite{hanzelmann2013gsva} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+318 & Pathview\cite{luo2013pathview} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+319 & Gitools\cite{perez2011gitools} & & $\checked$ & & & \\
+320 & piano\cite{varemo2013enriching} & & $\checked$ & $\checked$ & $\checked$ & \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textbf{DNA Modifications}} \\  \thickhline
+\hline
+\multicolumn{7}{|c|}{\textit{DNA Modification Analysis}} \\ 
+\hline
+\hline
+321 & AltAnalyze\cite{soreq2014long} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+322 & scLVM\cite{buettner2015computational} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+323 & Repliscan\cite{zynda2017repliscan} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{DNA Modification Databases}} \\ 
+\hline
+\hline
+324 & GEO\cite{clough2016gene} & $\checked$ & $\checked$ & & & \\
+325 & DevMouse\cite{liu2014devmouse} & $\checked$ & $\checked$ & & & \\
+326 & ViralEpi\cite{khan2016viralepi} & $\checked$ & $\checked$ & & & \\
+327 & dBEM\cite{nanda2016dbem} & $\checked$ & $\checked$ & & & \\
+328 & BLUEPRINT\cite{martens2013blueprint} & & $\checked$ & & & \\
+329 & MethHC\cite{huang2014methhc} & $\checked$ & $\checked$ & & & \\
+330 & iMETHYL\cite{komaki2018imethyl} & $\checked$ & $\checked$ & & & \\
+331 & START\cite{zhu2017start} & $\checked$ & $\checked$ & & & \\
+332 & MethyCancer\cite{he2007methycancer} & & $\checked$ & & &  \\
+333 & DNAmod\cite{sood2019dnamod} & & $\checked$ & & &  \\
+334 & BCaPE\cite{bruna2016biobank} & $\checked$ & $\checked$ & & & \\
+335 & EWASdb\cite{liu2018ewasdb} & $\checked$ & $\checked$ & & & \\
+336 & MetaImprint\cite{wei2014metaimprint} & $\checked$ & $\checked$ & & & \\
+337 & Geneimprint\cite{falls1999genomic} & & $\checked$ & & & \\
+338 & EICO\cite{nikaido2004eico} & & $\checked$ & & & \\
+339 & FACER\cite{lu2018facer} & $\checked$ & $\checked$ & & & \\\hline
+\hline
+\multicolumn{7}{|c|}{\textit{DNA methylation array analysis}} \\ 
+\hline
+\hline
+340 & Marmal-aid\cite{lowe2013marmal} & & $\checked$ & $\checked$ & $\checked$ & \\
+341 & SCANN\cite{bidaut2009large} & & $\checked$ & $\checked$ & $\checked$ & \\
+342 & COHCAP\cite{warden2013cohcap} & & $\checked$ & $\checked$ & $\checked$ & \\
+343 & MultiDataSet\cite{hernandez2017multidataset} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+344 & MMCOP\cite{tang2017tumor} & $\checked$ & $\checked$ & & & \\
+345 & ACES\cite{gao2018aces} & & $\checked$ & $\checked$ & $\checked$ & \\
+346 & Clustrophile\cite{demiralp2017clustrophile} & & $\checked$ & $\checked$ & $\checked$ & \\
+347 & WFMM\cite{morris2006using} & & $\checked$ & $\checked$ & $\checked$ & \\
+348 & CpGassoc\cite{barfield2012cpgassoc} & & $\checked$ & $\checked$ & $\checked$ & \\
+349 & IMA\cite{wang2012ima} & & $\checked$ & $\checked$ & $\checked$ & \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{BS-seq analysis}} \\ 
+\hline
+\hline
+350 & QUMA\cite{kumaki2008quma} & & $\checked$ & & & \\
+351 & RnBeads\cite{assenov2014comprehensive} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+352 & BDPC\cite{rohde2008bisulfite} & & $\checked$ & & & \\
+353 & MethPipe\cite{song2013reference} & & $\checked$ & $\checked$ & $\checked$ & \\
+354 & SAAP-RRBS\cite{sun2012saap} & & $\checked$ & $\checked$ & $\checked$ & \\ 
+355 & Genomic HyperBrowser\cite{sandve2013genomic} & & $\checked$ & & & \\
+356 & OTP\cite{reisinger2017otp} & $\checked$ & $\checked$ & & & \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\begin{tabular}{|c|l|c|c|c|c|c|}
+\hline
+Sr No. & Software Tools Names & Post Date (2014) & Free & Linux & Offline & Installed \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{MeDIP-seq analysis}} \\ 
+\hline
+\hline
+357 & MEDME\cite{pelizzola2008medme} & & $\checked$ & $\checked$ & $\checked$ & \\
+358 & RepiTools\cite{statham2010repitools} & & $\checked$ & $\checked$ & $\checked$ & \\
+359 & MeDUSA\cite{wilson2012resources} & & $\checked$ & $\checked$ & $\checked$ & \\
+360 & MeQA\cite{huang2011meqa} & & $\checked$ & $\checked$ & $\checked$ & \\
+361 & DISMISS\cite{niazi2016dismiss} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+\hline
+\multicolumn{7}{|c|}{\textit{oxBS/TAB/fCAB/CAB-seq}} \\ 
+\hline
+\hline
+362 & MOABS\cite{sun2014moabs} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\
+363 & MLML\cite{qu2013mlml} & & $\checked$ & $\checked$ & $\checked$ & \\ \hline
+\hline
+\multicolumn{7}{|c|}{\textit{MethylCap-seq analysis}} \\ 
+\hline
+\hline
+364 & Methylpy\cite{sauerberg1992novel} & & $\checked$ & $\checked$ & $\checked$ & \\
+365 & MethylAction\cite{bhasin2015methylaction} & $\checked$ & $\checked$ & $\checked$ & $\checked$ & $\checked$ \\ \hline
+\end{tabular}
+\label{table1}
+\end{adjustwidth}
+\end{table}
+
+
+%PLOS does not support heading levels beyond the 3rd (no 4th level headings).
+%\subsection*{\lorem\ and \ipsum\ nunc blandit a tortor}
+%\subsubsection*{3rd level heading} 
+
+%\subsection*{Sed ac quam id nisi malesuada congue}
+
+%\section*{Discussion}
+
+%\section*{Conclusion}
+
+%\section*{Supporting information}
+
+% Include only the SI item label in the paragraph heading. Use the \nameref{label} command to cite SI items in the text.
+%\paragraph*{S1 Fig.}
+
+%\paragraph*{S2 Fig.}
+
+%\paragraph*{S1 File.}
+
+%\paragraph*{S1 Video.}
+
+%\paragraph*{S1 Appendix.}
+
+%\paragraph*{S1 Table.}
+
+%\section*{Acknowledgments}
+
+\nolinenumbers
+
+% Either type in your references using
+% \begin{thebibliography}{}
+% \bibitem{}
+% Text
+% \end{thebibliography}
+%
+% or
+%
+% Compile your BiBTeX database using our plos2015.bst
+% style file and paste the contents of your .bbl file
+% here. See http://journals.plos.org/plosone/s/latex for 
+% step-by-step instructions.
+% 
+%\begin{thebibliography}{10}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+
+\end{document}

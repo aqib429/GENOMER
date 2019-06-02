@@ -1,0 +1,2261 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.10)  29 MAY 2019 15:30
+entering extended mode
+**"./DS Table Code.tex"
+("DS Table Code.tex"
+LaTeX2e <2018-12-01>
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ar
+ticle.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\si
+ze10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometr
+y\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxet
+ex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometr
+y\geometry.cfg"))
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfont
+s\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfont
+s\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/changep
+age\changepage.sty"
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count103
+\cp@tempcnt=\count104
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\in
+putenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf
+8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs
+.sty"
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni
+-global.def"
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count105
+\uc@combtoks=\toks23
+\uc@combtoksb=\toks24
+\uc@temptokena=\toks25
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\te
+xtcomp.sty"
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts
+1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/marvosy
+m\marvosym.sty"
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\ci
+te.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperre
+f\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\refcount.sty"
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+))
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)))))
+\c@section@level=\count106
+LaTeX Info: Redefining \ref on input line 355.
+LaTeX Info: Redefining \pageref on input line 355.
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperre
+f\hyperref.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `refcount' (already loaded).
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen120
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperre
+f\pd1enc.def"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count109
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00mikte
+x\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count110
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url
+.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen121
+\Fld@menulength=\count111
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperre
+f\hpdftex.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lineno\
+lineno.sty"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count117
+\output=\toks26
+\linenoprevgraf=\count118
+\linenumbersep=\dimen124
+\linenumberwidth=\dimen125
+\c@linenumber=\count119
+\c@pagewiselinenumber=\count120
+\c@LN@truepage=\count121
+\c@internallinenumber=\count122
+\c@internallinenumbers=\count123
+\quotelinenumbersep=\dimen126
+\bframerule=\dimen127
+\bframesep=\dimen128
+\bframebox=\box29
+LaTeX Info: Redefining \\ on input line 3056.
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microty
+pe\microtype.sty"
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks27
+\MT@count=\count124
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen129
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count125
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microty
+pe\microtype-pdftex.def"
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
+\MT@outer@space=\skip47
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microty
+pe\microtype.cfg"
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+))
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\
+xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortb
+l\colortbl.sty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\a
+rray.sty"
+Package: array 2018/11/13 v2.4j Tabular extension package (FMi)
+\col@sep=\dimen130
+\ar@mcellbox=\box30
+\extrarowheight=\dimen131
+\NC@list=\toks28
+\extratabsurround=\skip48
+\backup@length=\skip49
+\ar@cellbox=\box31
+)
+\everycr=\toks29
+\minrowclearance=\skip50
+)
+\rownum=\count126
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+\savedwidth=\skip51
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption
+\caption.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption
+\caption3.sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen132
+\captionmargin@=\dimen133
+\captionwidth=\dimen134
+\caption@tempdima=\dimen135
+\caption@indent=\dimen136
+\caption@parindent=\dimen137
+\caption@hangindent=\dimen138
+)
+\c@caption@flags=\count127
+\c@ContinuedFloat=\count128
+Package caption Info: hyperref package is loaded.
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpag
+e\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhd
+r\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\epstopdf.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+))
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym
+\wasysym.sty"
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibi
+nd\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) ("DS Table Code.aux"
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+)
+\openout1 = `"DS Table Code.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 176.
+
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts
+1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(198.7425pt, 323.40732pt, 92.14519pt)
+* v-part:(T,H,B)=(61.42993pt, 638.14268pt, 95.39737pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=379.4175pt
+* \textheight=632.36249pt
+* \oddsidemargin=126.4725pt
+* \evensidemargin=126.4725pt
+* \topmargin=-47.84006pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=54.2025pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs
+encs.def"
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 176.
+LaTeX Info: Redefining \ref on input line 176.
+LaTeX Info: Redefining \pageref on input line 176.
+LaTeX Info: Redefining \nameref on input line 176.
+ ("DS Table Code.out") ("DS Table Code.out")
+\@outlinefile=\write3
+\openout3 = `"DS Table Code.out"'.
+
+LaTeX Info: Redefining \microtypecontext on input line 176.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microty
+pe\mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\
+supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen141
+\scratchbox=\box33
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen142
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks31
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 176.
+LaTeX Font Info:    Try loading font information for U+msa on input line 188.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfont
+s\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microty
+pe\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 188.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfont
+s\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microty
+pe\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 188.
+
+("C:\Users\AimalTalhaRehman\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym
+\uwasy.fd"
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+LaTeX Warning: Citation `raviram20164c' on page 1 undefined on input line 274.
+
+
+LaTeX Warning: Citation `walter2014basic4cseq' on page 1 undefined on input lin
+e 275.
+
+
+LaTeX Warning: Citation `klein2015fourcseq' on page 1 undefined on input line 2
+76.
+
+
+LaTeX Warning: Citation `williams2014foursig' on page 1 undefined on input line
+ 277.
+
+
+LaTeX Warning: Citation `david2014htsstation' on page 1 undefined on input line
+ 278.
+
+
+LaTeX Warning: Citation `cai2016w4cseq' on page 1 undefined on input line 279.
+
+
+LaTeX Warning: Citation `sauria2015hifive' on page 1 undefined on input line 28
+3.
+
+
+LaTeX Warning: Citation `rousseau2011three' on page 1 undefined on input line 2
+84.
+
+
+LaTeX Warning: Citation `lesne20143d' on page 1 undefined on input line 285.
+
+
+LaTeX Warning: Citation `phanstiel2014sushi' on page 1 undefined on input line 
+286.
+
+
+LaTeX Warning: Citation `shavit2015hierarchical' on page 1 undefined on input l
+ine 290.
+
+
+LaTeX Warning: Citation `wang2015inferential' on page 1 undefined on input line
+ 291.
+
+
+LaTeX Warning: Citation `thongjuea2013r3cseq' on page 1 undefined on input line
+ 292.
+
+
+LaTeX Warning: Citation `ou2013genenetworkbuilder' on page 1 undefined on input
+ line 308.
+
+
+LaTeX Warning: Citation `wong2013dna' on page 1 undefined on input line 309.
+
+
+LaTeX Warning: Citation `phanstiel2015mango' on page 1 undefined on input line 
+313.
+
+
+LaTeX Warning: Citation `szalaj20163d' on page 1 undefined on input line 314.
+
+
+LaTeX Warning: Citation `lareau2017diffloop' on page 1 undefined on input line 
+315.
+
+
+LaTeX Warning: Citation `paulsen2014statistical' on page 1 undefined on input l
+ine 316.
+
+
+LaTeX Warning: Citation `tang2017delta' on page 1 undefined on input line 317.
+
+
+LaTeX Warning: Citation `he2015chip' on page 1 undefined on input line 321.
+
+
+LaTeX Warning: Citation `hartonen2016peakxus' on page 1 undefined on input line
+ 322.
+
+
+LaTeX Warning: Citation `madrigal2015cexor' on page 1 undefined on input line 3
+23.
+
+
+LaTeX Warning: Citation `hansen2016q' on page 1 undefined on input line 324.
+
+
+LaTeX Warning: Citation `taudt2016chromstar' on page 1 undefined on input line 
+330.
+
+
+LaTeX Warning: Citation `sohn2015hihmm' on page 1 undefined on input line 331.
+
+
+LaTeX Warning: Citation `mammana2015chromatin' on page 1 undefined on input lin
+e 332.
+
+
+LaTeX Warning: Citation `zacher2017accurate' on page 1 undefined on input line 
+333.
+
+
+LaTeX Warning: Citation `liu2017chromatin' on page 1 undefined on input line 33
+4.
+
+
+LaTeX Warning: Citation `singh2016deepchrome' on page 1 undefined on input line
+ 338.
+
+
+LaTeX Warning: Citation `lee2018mutalisk' on page 1 undefined on input line 339
+.
+
+
+LaTeX Warning: Citation `sekhon2018deepdiff' on page 1 undefined on input line 
+340.
+
+
+LaTeX Warning: Citation `fortin2015trx' on page 1 undefined on input line 344.
+
+
+LaTeX Warning: Citation `mei2016cistrome' on page 1 undefined on input line 350
+.
+
+
+LaTeX Warning: Citation `medvedeva2015epifactors' on page 1 undefined on input 
+line 354.
+
+
+LaTeX Warning: Citation `choi2015dbhimo' on page 1 undefined on input line 355.
+
+
+
+LaTeX Warning: Citation `xu2016weram' on page 1 undefined on input line 356.
+
+
+LaTeX Warning: Citation `zeng2018tfmapper' on page 1 undefined on input line 36
+0.
+
+
+LaTeX Warning: Citation `allahyar2017locus' on page 1 undefined on input line 3
+61.
+
+
+LaTeX Warning: Citation `li20143dgd' on page 1 undefined on input line 362.
+
+
+LaTeX Warning: Citation `teng20154dgenome' on page 1 undefined on input line 36
+3.
+
+
+LaTeX Warning: Citation `cui2010structure' on page 1 undefined on input line 37
+0.
+
+
+LaTeX Warning: Citation `guo2014inuc' on page 1 undefined on input line 371.
+
+
+LaTeX Warning: Citation `zhang2018lenup' on page 1 undefined on input line 372.
+
+
+
+LaTeX Warning: Citation `hatakeyama2016sushi' on page 1 undefined on input line
+ 388.
+
+
+LaTeX Warning: Citation `ou2018atacseqqc' on page 1 undefined on input line 389
+.
+
+
+LaTeX Warning: Citation `ahmed2017atac' on page 1 undefined on input line 394.
+
+
+LaTeX Warning: Citation `tarbell2018hmmratac' on page 1 undefined on input line
+ 395.
+
+
+LaTeX Warning: Citation `link2018mmarge' on page 1 undefined on input line 396.
+
+
+
+LaTeX Warning: Citation `tripodi2018detecting' on page 1 undefined on input lin
+e 397.
+
+
+LaTeX Warning: Citation `hiranuma2017deepatac' on page 1 undefined on input lin
+e 398.
+
+
+LaTeX Warning: Citation `schep2017chromvar' on page 1 undefined on input line 4
+02.
+
+
+LaTeX Warning: Citation `bravo2018cis' on page 1 undefined on input line 403.
+
+
+LaTeX Warning: Citation `chen2018rapid' on page 1 undefined on input line 404.
+
+
+LaTeX Warning: Citation `shrestha2018workflow' on page 1 undefined on input lin
+e 408.
+
+
+LaTeX Warning: Citation `zuo2018atac' on page 1 undefined on input line 409.
+
+
+LaTeX Warning: Citation `wei2018esatac' on page 1 undefined on input line 410.
+
+
+LaTeX Warning: Citation `shen2014ngs' on page 1 undefined on input line 420.
+
+
+LaTeX Warning: Citation `yu2015chipseeker' on page 1 undefined on input line 42
+1.
+
+
+LaTeX Warning: Citation `stempor2016seqplots' on page 1 undefined on input line
+ 422.
+
+
+LaTeX Warning: Citation `dale2014metaseq' on page 1 undefined on input line 423
+.
+
+
+LaTeX Warning: Citation `kim2015itagplot' on page 1 undefined on input line 424
+.
+
+
+LaTeX Warning: Citation `warnes2016package' on page 1 undefined on input line 4
+28.
+
+
+LaTeX Warning: Citation `micallef2014eulerape' on page 1 undefined on input lin
+e 429.
+
+
+LaTeX Warning: Citation `bardou2014jvenn' on page 1 undefined on input line 430
+.
+
+
+LaTeX Warning: Citation `swinton2009venn' on page 1 undefined on input line 431
+.
+
+
+LaTeX Warning: Citation `wang2015orthovenn' on page 1 undefined on input line 4
+32.
+
+
+LaTeX Warning: Citation `pirooznia2007genevenn' on page 1 undefined on input li
+ne 433.
+
+
+LaTeX Warning: Citation `wilkinson2012exact' on page 1 undefined on input line 
+434.
+
+
+LaTeX Warning: Citation `ovaska2010large' on page 1 undefined on input line 435
+.
+
+
+LaTeX Warning: Citation `kestler2008vennmaster' on page 1 undefined on input li
+ne 436.
+
+
+LaTeX Warning: Citation `martin2012vennture' on page 1 undefined on input line 
+437.
+
+
+LaTeX Warning: Citation `zhang2017canvasxpress' on page 1 undefined on input li
+ne 438.
+
+
+LaTeX Warning: Citation `zahavi2015vennblast' on page 1 undefined on input line
+ 439.
+
+
+LaTeX Warning: Citation `zhang2018canvasdesigner' on page 1 undefined on input 
+line 440.
+
+
+LaTeX Warning: Citation `hulsen2008biovenn' on page 1 undefined on input line 4
+41.
+
+
+LaTeX Warning: Citation `kim2011anyexpress' on page 1 undefined on input line 4
+42.
+
+
+LaTeX Warning: Citation `carroll2000drawing' on page 1 undefined on input line 
+443.
+
+
+LaTeX Warning: Citation `gao2018neutools' on page 1 undefined on input line 444
+.
+
+
+LaTeX Warning: Citation `halachev2012epiexplorer' on page 1 undefined on input 
+line 448.
+
+
+LaTeX Warning: Citation `carr2007sequence' on page 1 undefined on input line 44
+9.
+
+
+LaTeX Warning: Citation `hotez2016blue' on page 1 undefined on input line 462.
+
+
+LaTeX Warning: Citation `du2013methyanalysis' on page 1 undefined on input line
+ 463.
+
+
+LaTeX Warning: Citation `pardo2010methylviewer' on page 1 undefined on input li
+ne 464.
+
+
+LaTeX Warning: Citation `zackay2010methvisual' on page 1 undefined on input lin
+e 465.
+
+
+LaTeX Warning: Citation `chelaru2014epiviz' on page 1 undefined on input line 4
+66.
+
+
+LaTeX Warning: Citation `wong2016methpat' on page 1 undefined on input line 467
+.
+
+
+LaTeX Warning: Citation `pabinger2016analysis' on page 1 undefined on input lin
+e 468.
+
+
+LaTeX Warning: Citation `hofmeister2018enhanced' on page 1 undefined on input l
+ine 469.
+
+
+LaTeX Warning: Citation `leakey1990simultaneous' on page 1 undefined on input l
+ine 470.
+
+
+LaTeX Warning: Citation `fernandez2009dynamic' on page 1 undefined on input lin
+e 471.
+
+
+LaTeX Warning: Citation `sun2017bsviewer' on page 1 undefined on input line 472
+.
+
+
+LaTeX Warning: Citation `perez2018storage' on page 1 undefined on input line 47
+3.
+
+
+LaTeX Warning: Citation `font2013chrogps' on page 1 undefined on input line 474
+.
+
+
+LaTeX Warning: Citation `gabriel2009snp' on page 1 undefined on input line 475.
+
+
+
+LaTeX Warning: Citation `grunau2000methtools' on page 1 undefined on input line
+ 476.
+
+
+LaTeX Warning: Citation `ordway2005methylmapper' on page 1 undefined on input l
+ine 477.
+
+
+LaTeX Warning: Citation `rice2000emboss' on page 1 undefined on input line 481.
+
+
+
+LaTeX Warning: Citation `donlin2009using' on page 1 undefined on input line 482
+.
+
+
+LaTeX Warning: Citation `skinner2009jbrowse' on page 1 undefined on input line 
+483.
+
+
+LaTeX Warning: Citation `lawrence2009rtracklayer' on page 1 undefined on input 
+line 484.
+
+
+LaTeX Warning: Citation `severin2014interactive' on page 1 undefined on input l
+ine 485.
+
+
+LaTeX Warning: Citation `yin2012ggbio' on page 1 undefined on input line 486.
+
+
+LaTeX Warning: Citation `lee2009apollo' on page 1 undefined on input line 487.
+
+
+LaTeX Warning: Citation `humburg2012using' on page 1 undefined on input line 48
+8.
+
+
+LaTeX Warning: Citation `bressler2012fastbreak' on page 1 undefined on input li
+ne 489.
+
+
+LaTeX Warning: Citation `argimon2016microreact' on page 1 undefined on input li
+ne 490.
+
+
+LaTeX Warning: Citation `abeel2011genomeview' on page 1 undefined on input line
+ 491.
+
+
+LaTeX Warning: Citation `shannon2006gaggle' on page 1 undefined on input line 4
+92.
+
+
+LaTeX Warning: Citation `durinck2009genomegraphs' on page 1 undefined on input 
+line 493.
+
+
+LaTeX Warning: Citation `skidmore2016genvisr' on page 1 undefined on input line
+ 494.
+
+
+LaTeX Warning: Citation `satoh2013molecular' on page 1 undefined on input line 
+495.
+
+
+LaTeX Warning: Citation `lajugie2011genplay' on page 1 undefined on input line 
+496.
+
+
+LaTeX Warning: Citation `lechat2013syntview' on page 1 undefined on input line 
+497.
+
+
+LaTeX Warning: Citation `exner1985quantitative' on page 1 undefined on input li
+ne 498.
+
+
+LaTeX Warning: Citation `thorvaldsdottir2013integrative' on page 1 undefined on
+ input line 499.
+
+
+LaTeX Warning: Citation `crabtree2014circleator' on page 1 undefined on input l
+ine 500.
+
+
+LaTeX Warning: Citation `rebeiz2004genepalette' on page 1 undefined on input li
+ne 501.
+
+
+LaTeX Warning: Citation `chesters1983low' on page 1 undefined on input line 502
+.
+
+
+LaTeX Warning: Citation `butyaev2015low' on page 1 undefined on input line 503.
+
+
+
+LaTeX Warning: Citation `kumagai2013tasuke' on page 1 undefined on input line 5
+04.
+
+
+LaTeX Warning: Citation `abril2000gff2ps' on page 1 undefined on input line 505
+.
+
+
+LaTeX Warning: Citation `jiang2010cisgenome' on page 1 undefined on input line 
+506.
+
+
+LaTeX Warning: Citation `goecks2012ngs' on page 1 undefined on input line 507.
+
+
+LaTeX Warning: Citation `staats2005genewindow' on page 1 undefined on input lin
+e 508.
+
+
+LaTeX Warning: Citation `amiryousefi2018irscope' on page 1 undefined on input l
+ine 509.
+
+
+LaTeX Warning: Citation `zerbino2013wiggletools' on page 1 undefined on input l
+ine 510.
+
+
+LaTeX Warning: Citation `down2011dalliance' on page 1 undefined on input line 5
+11.
+
+
+LaTeX Warning: Citation `guizard2016densitymap' on page 1 undefined on input li
+ne 512.
+
+
+LaTeX Warning: Citation `katainen2017baseplayer' on page 1 undefined on input l
+ine 525.
+
+
+LaTeX Warning: Citation `kim2015coloweb' on page 1 undefined on input line 526.
+
+
+
+LaTeX Warning: Citation `harmston2015genomicinteractions' on page 1 undefined o
+n input line 527.
+
+
+LaTeX Warning: Citation `angers2007plasmadna' on page 1 undefined on input line
+ 528.
+
+
+LaTeX Warning: Citation `nelson2018epic' on page 1 undefined on input line 529.
+
+
+
+LaTeX Warning: Citation `toyoda2006omicbrowse' on page 1 undefined on input lin
+e 530.
+
+
+LaTeX Warning: Citation `rensing2005protein' on page 1 undefined on input line 
+531.
+
+
+LaTeX Warning: Citation `ding2010analysis' on page 1 undefined on input line 53
+2.
+
+
+LaTeX Warning: Citation `leader2004bugview' on page 1 undefined on input line 5
+33.
+
+
+LaTeX Warning: Citation `yauy2018looking' on page 1 undefined on input line 534
+.
+
+
+LaTeX Warning: Citation `gibson2003genome' on page 1 undefined on input line 53
+5.
+
+
+LaTeX Warning: Citation `orostica2016chromplot' on page 1 undefined on input li
+ne 536.
+
+
+LaTeX Warning: Citation `zhang2016caomicsv' on page 1 undefined on input line 5
+37.
+
+
+LaTeX Warning: Citation `gel2017karyoploter' on page 1 undefined on input line 
+538.
+
+
+LaTeX Warning: Citation `tempel2008visualrepbase' on page 1 undefined on input 
+line 539.
+
+
+LaTeX Warning: Citation `hervas2017popfly' on page 1 undefined on input line 54
+0.
+
+
+LaTeX Warning: Citation `szot2017pbrowse' on page 1 undefined on input line 541
+.
+
+
+LaTeX Warning: Citation `carrere2017mygenomebrowser' on page 1 undefined on inp
+ut line 542.
+
+
+LaTeX Warning: Citation `ueno2003processing' on page 1 undefined on input line 
+543.
+
+
+LaTeX Warning: Citation `rintoul2015trackable' on page 1 undefined on input lin
+e 544.
+
+
+LaTeX Warning: Citation `caballero2018gfacs' on page 1 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `miller2012scribl' on page 1 undefined on input line 54
+6.
+
+
+LaTeX Warning: Citation `matsuura1935contributions' on page 1 undefined on inpu
+t line 547.
+
+
+LaTeX Warning: Citation `gu2016gtrellis' on page 1 undefined on input line 548.
+
+
+
+LaTeX Warning: Citation `vernikos2003genevito' on page 1 undefined on input lin
+e 549.
+
+
+LaTeX Warning: Citation `creed2018epitad' on page 1 undefined on input line 550
+.
+
+
+LaTeX Warning: Citation `seaman2009skittle' on page 1 undefined on input line 5
+51.
+
+
+LaTeX Warning: Citation `lenggenhager2007video' on page 1 undefined on input li
+ne 552.
+
+
+LaTeX Warning: Citation `kumar2013blobology' on page 1 undefined on input line 
+553.
+
+
+LaTeX Warning: Citation `beccuti2017seqbox' on page 1 undefined on input line 5
+54.
+
+
+LaTeX Warning: Citation `wiemer2001software' on page 1 undefined on input line 
+555.
+
+
+LaTeX Warning: Citation `shenker2018crossbrowse' on page 1 undefined on input l
+ine 556.
+
+
+LaTeX Warning: Citation `challis2017genomehubs' on page 1 undefined on input li
+ne 557.
+
+
+LaTeX Warning: Citation `zhao2018ancestryview' on page 1 undefined on input lin
+e 558.
+
+
+LaTeX Warning: Citation `michel2013gwips' on page 1 undefined on input line 559
+.
+
+
+LaTeX Warning: Citation `casillas2017pophuman' on page 1 undefined on input lin
+e 560.
+
+
+LaTeX Warning: Citation `fiume2010savant' on page 1 undefined on input line 561
+.
+
+
+LaTeX Warning: Citation `barrios2017d3gb' on page 1 undefined on input line 562
+.
+
+
+LaTeX Warning: Citation `schlaffner2016pogo' on page 1 undefined on input line 
+563.
+
+
+LaTeX Warning: Citation `singh2014general' on page 1 undefined on input line 56
+4.
+
+
+LaTeX Warning: Citation `lee2018squiggle' on page 1 undefined on input line 565
+.
+
+
+LaTeX Warning: Citation `meng2018mitoz' on page 1 undefined on input line 566.
+
+
+LaTeX Warning: Citation `carver2011artemis' on page 1 undefined on input line 5
+67.
+
+
+LaTeX Warning: Citation `beraldi2017asciigenome' on page 1 undefined on input l
+ine 568.
+
+
+LaTeX Warning: Citation `kruppa2017kmerpyramid' on page 1 undefined on input li
+ne 569.
+
+
+LaTeX Warning: Citation `okada2017framework' on page 1 undefined on input line 
+570.
+
+
+LaTeX Warning: Citation `payne2018whale' on page 1 undefined on input line 571.
+
+
+
+LaTeX Warning: Citation `salieb2009dna' on page 1 undefined on input line 572.
+
+
+LaTeX Warning: Citation `spies2018genomeview' on page 1 undefined on input line
+ 573.
+
+
+LaTeX Warning: Citation `gao2006gc' on page 1 undefined on input line 586.
+
+
+LaTeX Warning: Citation `albert2008genetrack' on page 1 undefined on input line
+ 587.
+
+
+LaTeX Warning: Citation `baerends2004genome2d' on page 1 undefined on input lin
+e 588.
+
+
+LaTeX Warning: Citation `yang2003genomecomp' on page 1 undefined on input line 
+589.
+
+
+LaTeX Warning: Citation `xu2016hiview' on page 1 undefined on input line 590.
+
+
+LaTeX Warning: Citation `lajoie2009my5c' on page 1 undefined on input line 591.
+
+
+
+LaTeX Warning: Citation `kashuk2002viewgene' on page 1 undefined on input line 
+592.
+
+
+LaTeX Warning: Citation `nussbaumer2014chromowiz' on page 1 undefined on input 
+line 593.
+
+
+LaTeX Warning: Citation `lombardot2007metalook' on page 1 undefined on input li
+ne 594.
+
+
+LaTeX Warning: Citation `smoller2008influence' on page 1 undefined on input lin
+e 595.
+
+
+LaTeX Warning: Citation `kong2012abrowse' on page 1 undefined on input line 596
+.
+
+
+LaTeX Warning: Citation `thomas2007graphdna' on page 1 undefined on input line 
+597.
+
+
+LaTeX Warning: Citation `gamazon2015gene' on page 1 undefined on input line 603
+.
+
+
+LaTeX Warning: Citation `weng2010mamphea' on page 1 undefined on input line 604
+.
+
+
+LaTeX Warning: Citation `ben2014phenonet' on page 1 undefined on input line 605
+.
+
+
+LaTeX Warning: Citation `shameer2014poeas' on page 1 undefined on input line 60
+6.
+
+
+LaTeX Warning: Citation `ellis2018improving' on page 1 undefined on input line 
+607.
+
+
+LaTeX Warning: Citation `weng2011dro' on page 1 undefined on input line 608.
+
+
+LaTeX Warning: Citation `weng2017mod' on page 1 undefined on input line 609.
+
+
+LaTeX Warning: Citation `aun2018k' on page 1 undefined on input line 610.
+
+
+LaTeX Warning: Citation `machanick2011meme' on page 1 undefined on input line 6
+14.
+
+
+LaTeX Warning: Citation `lesluyes2014differential' on page 1 undefined on input
+ line 615.
+
+
+LaTeX Warning: Citation `siebert2016bayesian' on page 1 undefined on input line
+ 616.
+
+
+LaTeX Warning: Citation `frith2004detection' on page 1 undefined on input line 
+617.
+
+
+LaTeX Warning: Citation `roider2008pastaa' on page 1 undefined on input line 61
+8.
+
+
+LaTeX Warning: Citation `zhang2011centdist' on page 1 undefined on input line 6
+19.
+
+
+LaTeX Warning: Citation `buske2010assigning' on page 1 undefined on input line 
+620.
+
+
+LaTeX Warning: Citation `herrmann2012cistarget' on page 1 undefined on input li
+ne 621.
+
+
+LaTeX Warning: Citation `stojnic2013overview' on page 1 undefined on input line
+ 622.
+
+
+LaTeX Warning: Citation `wang2016rtfbsdb' on page 1 undefined on input line 623
+.
+
+
+LaTeX Warning: Citation `starmer2016detecting' on page 1 undefined on input lin
+e 624.
+
+
+LaTeX Warning: Citation `beiko2005gann' on page 1 undefined on input line 625.
+
+
+LaTeX Warning: Citation `nielsen2018regmex' on page 1 undefined on input line 6
+26.
+
+
+LaTeX Warning: Citation `sonnenburg2008poims' on page 1 undefined on input line
+ 627.
+
+
+LaTeX Warning: Citation `bedre2018genfam' on page 1 undefined on input line 628
+.
+
+
+LaTeX Warning: Citation `vandenbon2013parzen' on page 1 undefined on input line
+ 629.
+
+
+LaTeX Warning: Citation `centeno2016genome' on page 1 undefined on input line 6
+30.
+
+
+LaTeX Warning: Citation `audic1997significance' on page 1 undefined on input li
+ne 631.
+
+
+LaTeX Warning: Citation `botez2007improved' on page 1 undefined on input line 6
+32.
+
+
+LaTeX Warning: Citation `favorov2012exploring' on page 1 undefined on input lin
+e 633.
+
+
+LaTeX Warning: Citation `zambelli2013pscanchip' on page 1 undefined on input li
+ne 634.
+
+
+LaTeX Warning: Citation `sheffield2015lola' on page 1 undefined on input line 6
+35.
+
+
+LaTeX Warning: Citation `leibovich2013drimust' on page 1 undefined on input lin
+e 636.
+
+
+LaTeX Warning: Citation `akalin2014genomation' on page 1 undefined on input lin
+e 637.
+
+
+LaTeX Warning: Citation `morrell2017experiment' on page 1 undefined on input li
+ne 638.
+
+
+LaTeX Warning: Citation `tsunoi2002method' on page 1 undefined on input line 65
+1.
+
+
+LaTeX Warning: Citation `wang2013locating' on page 1 undefined on input line 65
+2.
+
+
+LaTeX Warning: Citation `harmanci2014music' on page 1 undefined on input line 6
+53.
+
+
+LaTeX Warning: Citation `knijnenburg2014multiscale' on page 1 undefined on inpu
+t line 654.
+
+
+LaTeX Warning: Citation `mclean2010great' on page 1 undefined on input line 655
+.
+
+
+LaTeX Warning: Citation `chitpin2018recap' on page 1 undefined on input line 65
+6.
+
+
+LaTeX Warning: Citation `mishra2018bedsect' on page 1 undefined on input line 6
+57.
+
+
+LaTeX Warning: Citation `dennis2003david' on page 1 undefined on input line 661
+.
+
+
+LaTeX Warning: Citation `conesa2005blast2go' on page 1 undefined on input line 
+662.
+
+
+LaTeX Warning: Citation `maere2005bingo' on page 1 undefined on input line 663.
+
+
+
+LaTeX Warning: Citation `ye2006wego' on page 1 undefined on input line 664.
+
+
+LaTeX Warning: Citation `zhang2005webgestalt' on page 1 undefined on input line
+ 665.
+
+
+LaTeX Warning: Citation `young2010gene' on page 1 undefined on input line 666.
+
+
+LaTeX Warning: Citation `bindea2009cluego' on page 1 undefined on input line 66
+7.
+
+
+LaTeX Warning: Citation `falcon2006using' on page 1 undefined on input line 668
+.
+
+
+LaTeX Warning: Citation `doniger2003mappfinder' on page 1 undefined on input li
+ne 669.
+
+
+LaTeX Warning: Citation `beissbarth2004gostat' on page 1 undefined on input lin
+e 670.
+
+
+LaTeX Warning: Citation `alonso2015babelomics' on page 1 undefined on input lin
+e 671.
+
+
+LaTeX Warning: Citation `zeeberg2003gominer' on page 1 undefined on input line 
+672.
+
+
+LaTeX Warning: Citation `zheng2008goeast' on page 1 undefined on input line 673
+.
+
+
+LaTeX Warning: Citation `berriz2003characterizing' on page 1 undefined on input
+ line 674.
+
+
+LaTeX Warning: Citation `tong2003arraytrack' on page 1 undefined on input line 
+675.
+
+
+LaTeX Warning: Citation `robinson2002funspec' on page 1 undefined on input line
+ 676.
+
+
+LaTeX Warning: Citation `zambon2012go' on page 1 undefined on input line 677.
+
+
+LaTeX Warning: Citation `klopfenstein2018goatools' on page 1 undefined on input
+ line 678.
+
+
+LaTeX Warning: Citation `usadel2006pageman' on page 1 undefined on input line 6
+79.
+
+
+LaTeX Warning: Citation `ernst2006stem' on page 1 undefined on input line 680.
+
+
+LaTeX Warning: Citation `gillis2010gene' on page 1 undefined on input line 681.
+
+
+
+LaTeX Warning: Citation `rainer2006carmaweb' on page 1 undefined on input line 
+682.
+
+
+LaTeX Warning: Citation `draghici2003onto' on page 1 undefined on input line 68
+3.
+
+
+LaTeX Warning: Citation `zhou2007easygo' on page 1 undefined on input line 684.
+
+
+
+LaTeX Warning: Citation `sharov2009exhaustive' on page 1 undefined on input lin
+e 685.
+
+
+LaTeX Warning: Citation `sun2006goffa' on page 1 undefined on input line 686.
+
+
+LaTeX Warning: Citation `horan2008annotating' on page 1 undefined on input line
+ 687.
+
+
+LaTeX Warning: Citation `vencio2006baygo' on page 1 undefined on input line 688
+.
+
+
+LaTeX Warning: Citation `blatti2014motif' on page 1 undefined on input line 689
+.
+
+
+LaTeX Warning: Citation `na2014categorizer' on page 1 undefined on input line 6
+90.
+
+
+LaTeX Warning: Citation `wrobel2005gocluster' on page 1 undefined on input line
+ 691.
+
+
+LaTeX Warning: Citation `drost2017mytai' on page 1 undefined on input line 692.
+
+
+
+LaTeX Warning: Citation `verwer2007mature' on page 1 undefined on input line 69
+3.
+
+
+LaTeX Warning: Citation `kehl2017regulatortrail' on page 1 undefined on input l
+ine 694.
+
+
+LaTeX Warning: Citation `rue2016goexpress' on page 1 undefined on input line 69
+5.
+
+
+LaTeX Warning: Citation `erhard2012rip' on page 1 undefined on input line 696.
+
+
+LaTeX Warning: Citation `zhang2004gotree' on page 1 undefined on input line 697
+.
+
+
+LaTeX Warning: Citation `vencio2007probcd' on page 1 undefined on input line 69
+8.
+
+
+LaTeX Warning: Citation `mecham2014mvgst' on page 1 undefined on input line 699
+.
+
+
+LaTeX Warning: Citation `khatri2007onto' on page 1 undefined on input line 700.
+
+
+
+LaTeX Warning: Citation `giannopoulou2011integrated' on page 1 undefined on inp
+ut line 715.
+
+
+LaTeX Warning: Citation `heinz2010simple' on page 1 undefined on input line 716
+.
+
+
+LaTeX Warning: Citation `alexa2006improved' on page 1 undefined on input line 7
+17.
+
+
+LaTeX Warning: Citation `nogales2009genecodis' on page 1 undefined on input lin
+e 718.
+
+
+LaTeX Warning: Citation `vrahatis2015chronos' on page 1 undefined on input line
+ 719.
+
+
+LaTeX Warning: Citation `bauer2008ontologizer' on page 1 undefined on input lin
+e 720.
+
+
+LaTeX Warning: Citation `tarca2008novel' on page 1 undefined on input line 721.
+
+
+
+LaTeX Warning: Citation `frohlich2007gosim' on page 1 undefined on input line 7
+22.
+
+
+LaTeX Warning: Citation `glaab2012enrichnet' on page 1 undefined on input line 
+723.
+
+
+LaTeX Warning: Citation `li2009subpathwayminer' on page 1 undefined on input li
+ne 724.
+
+
+LaTeX Warning: Citation `antonov2008profcom' on page 1 undefined on input line 
+725.
+
+
+LaTeX Warning: Citation `wang2011noa' on page 1 undefined on input line 726.
+
+
+LaTeX Warning: Citation `dutta2012pathnet' on page 1 undefined on input line 72
+7.
+
+
+LaTeX Warning: Citation `delahaye2016rare' on page 1 undefined on input line 72
+8.
+
+
+LaTeX Warning: Citation `ma2016network' on page 1 undefined on input line 729.
+
+
+LaTeX Warning: Citation `wu2009sparse' on page 1 undefined on input line 730.
+
+
+LaTeX Warning: Citation `jacob2012package' on page 1 undefined on input line 73
+1.
+
+
+LaTeX Warning: Citation `fang2012network' on page 1 undefined on input line 732
+.
+
+
+LaTeX Warning: Citation `geistlinger2016bioconductor' on page 1 undefined on in
+put line 733.
+
+
+LaTeX Warning: Citation `judeh2012teak' on page 1 undefined on input line 734.
+
+
+LaTeX Warning: Citation `ihnatova2015topaseq' on page 1 undefined on input line
+ 735.
+
+
+LaTeX Warning: Citation `massa2016package' on page 1 undefined on input line 73
+6.
+
+
+LaTeX Warning: Citation `gu2013cepa' on page 1 undefined on input line 737.
+
+
+LaTeX Warning: Citation `martini2014timeclip' on page 1 undefined on input line
+ 738.
+
+
+LaTeX Warning: Citation `bianco2016pathway' on page 1 undefined on input line 7
+39.
+
+
+LaTeX Warning: Citation `broeksema2017icover' on page 1 undefined on input line
+ 740.
+
+
+LaTeX Warning: Citation `bryant2013ambient' on page 1 undefined on input line 7
+41.
+
+
+LaTeX Warning: Citation `nam2006adgo' on page 1 undefined on input line 742.
+
+
+LaTeX Warning: Citation `mieczkowski2012identification' on page 1 undefined on 
+input line 743.
+
+
+LaTeX Warning: Citation `amar2015morph' on page 1 undefined on input line 744.
+
+
+LaTeX Warning: Citation `mahony2014integrated' on page 1 undefined on input lin
+e 748.
+
+
+LaTeX Warning: Citation `straver2016calculating' on page 1 undefined on input l
+ine 749.
+
+
+LaTeX Warning: Citation `lam2016histones' on page 1 undefined on input line 750
+.
+
+
+LaTeX Warning: Citation `chabbert2016dchiprep' on page 1 undefined on input lin
+e 751.
+
+
+LaTeX Warning: Citation `wong2014signalspider' on page 1 undefined on input lin
+e 752.
+
+
+LaTeX Warning: Citation `zeng2013jmosaics' on page 1 undefined on input line 75
+3.
+
+
+LaTeX Warning: Citation `esse2017chipdig' on page 1 undefined on input line 754
+.
+
+
+LaTeX Warning: Citation `smyth2005use' on page 1 undefined on input line 758.
+
+
+LaTeX Warning: Citation `robinson2010edger' on page 1 undefined on input line 7
+59.
+
+
+LaTeX Warning: Citation `love2014moderated' on page 1 undefined on input line 7
+60.
+
+
+LaTeX Warning: Citation `subramanian2005gene' on page 1 undefined on input line
+ 761.
+
+
+LaTeX Warning: Citation `aran2017xcell' on page 1 undefined on input line 762.
+
+
+LaTeX Warning: Citation `wu2006kobas' on page 1 undefined on input line 763.
+
+
+LaTeX Warning: Citation `moriya2007kaas' on page 1 undefined on input line 764.
+
+
+
+LaTeX Warning: Citation `liu2014cushaw3' on page 1 undefined on input line 765.
+
+
+
+LaTeX Warning: Citation `wang2015ngs' on page 1 undefined on input line 778.
+
+
+LaTeX Warning: Citation `hanzelmann2013gsva' on page 1 undefined on input line 
+779.
+
+
+LaTeX Warning: Citation `luo2013pathview' on page 1 undefined on input line 780
+.
+
+
+LaTeX Warning: Citation `perez2011gitools' on page 1 undefined on input line 78
+1.
+
+
+LaTeX Warning: Citation `varemo2013enriching' on page 1 undefined on input line
+ 782.
+
+
+LaTeX Warning: Citation `soreq2014long' on page 1 undefined on input line 789.
+
+
+LaTeX Warning: Citation `buettner2015computational' on page 1 undefined on inpu
+t line 790.
+
+
+LaTeX Warning: Citation `zynda2017repliscan' on page 1 undefined on input line 
+791.
+
+
+LaTeX Warning: Citation `clough2016gene' on page 1 undefined on input line 796.
+
+
+
+LaTeX Warning: Citation `liu2014devmouse' on page 1 undefined on input line 797
+.
+
+
+LaTeX Warning: Citation `khan2016viralepi' on page 1 undefined on input line 79
+8.
+
+
+LaTeX Warning: Citation `nanda2016dbem' on page 1 undefined on input line 799.
+
+
+LaTeX Warning: Citation `martens2013blueprint' on page 1 undefined on input lin
+e 800.
+
+
+LaTeX Warning: Citation `huang2014methhc' on page 1 undefined on input line 801
+.
+
+
+LaTeX Warning: Citation `komaki2018imethyl' on page 1 undefined on input line 8
+02.
+
+
+LaTeX Warning: Citation `zhu2017start' on page 1 undefined on input line 803.
+
+
+LaTeX Warning: Citation `he2007methycancer' on page 1 undefined on input line 8
+04.
+
+
+LaTeX Warning: Citation `sood2019dnamod' on page 1 undefined on input line 805.
+
+
+
+LaTeX Warning: Citation `bruna2016biobank' on page 1 undefined on input line 80
+6.
+
+
+LaTeX Warning: Citation `liu2018ewasdb' on page 1 undefined on input line 807.
+
+
+LaTeX Warning: Citation `wei2014metaimprint' on page 1 undefined on input line 
+808.
+
+
+LaTeX Warning: Citation `falls1999genomic' on page 1 undefined on input line 80
+9.
+
+
+LaTeX Warning: Citation `nikaido2004eico' on page 1 undefined on input line 810
+.
+
+
+LaTeX Warning: Citation `lu2018facer' on page 1 undefined on input line 811.
+
+
+LaTeX Warning: Citation `lowe2013marmal' on page 1 undefined on input line 816.
+
+
+
+LaTeX Warning: Citation `bidaut2009large' on page 1 undefined on input line 817
+.
+
+
+LaTeX Warning: Citation `warden2013cohcap' on page 1 undefined on input line 81
+8.
+
+
+LaTeX Warning: Citation `hernandez2017multidataset' on page 1 undefined on inpu
+t line 819.
+
+
+LaTeX Warning: Citation `tang2017tumor' on page 1 undefined on input line 820.
+
+
+LaTeX Warning: Citation `gao2018aces' on page 1 undefined on input line 821.
+
+
+LaTeX Warning: Citation `demiralp2017clustrophile' on page 1 undefined on input
+ line 822.
+
+
+LaTeX Warning: Citation `morris2006using' on page 1 undefined on input line 823
+.
+
+
+LaTeX Warning: Citation `barfield2012cpgassoc' on page 1 undefined on input lin
+e 824.
+
+
+LaTeX Warning: Citation `wang2012ima' on page 1 undefined on input line 825.
+
+
+LaTeX Warning: Citation `kumaki2008quma' on page 1 undefined on input line 830.
+
+
+
+LaTeX Warning: Citation `assenov2014comprehensive' on page 1 undefined on input
+ line 831.
+
+
+LaTeX Warning: Citation `rohde2008bisulfite' on page 1 undefined on input line 
+832.
+
+
+LaTeX Warning: Citation `song2013reference' on page 1 undefined on input line 8
+33.
+
+
+LaTeX Warning: Citation `sun2012saap' on page 1 undefined on input line 834.
+
+
+LaTeX Warning: Citation `sandve2013genomic' on page 1 undefined on input line 8
+35.
+
+
+LaTeX Warning: Citation `reisinger2017otp' on page 1 undefined on input line 83
+6.
+
+
+LaTeX Warning: Citation `pelizzola2008medme' on page 1 undefined on input line 
+852.
+
+
+LaTeX Warning: Citation `statham2010repitools' on page 1 undefined on input lin
+e 853.
+
+
+LaTeX Warning: Citation `wilson2012resources' on page 1 undefined on input line
+ 854.
+
+
+LaTeX Warning: Citation `huang2011meqa' on page 1 undefined on input line 855.
+
+
+LaTeX Warning: Citation `niazi2016dismiss' on page 1 undefined on input line 85
+6.
+
+
+LaTeX Warning: Citation `sun2014moabs' on page 1 undefined on input line 861.
+
+
+LaTeX Warning: Citation `qu2013mlml' on page 1 undefined on input line 862.
+
+
+LaTeX Warning: Citation `sauerberg1992novel' on page 1 undefined on input line 
+867.
+
+
+LaTeX Warning: Citation `bhasin2015methylaction' on page 1 undefined on input l
+ine 868.
+
+("DS Table Code.bbl"
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) 
+AED: lastpage setting LastPage
+[1
+
+{C:/Users/AimalTalhaRehman/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Text page 2 contains only floats.
+
+[2]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+
+Overfull \vbox (4.83731pt too high) has occurred while \output is active []
+
+
+[3]
+
+LaTeX Warning: Text page 4 contains only floats.
+
+
+Overfull \vbox (4.83746pt too high) has occurred while \output is active []
+
+
+[4]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+[5]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+
+Overfull \vbox (1.23743pt too high) has occurred while \output is active []
+
+
+[6]
+
+LaTeX Warning: Text page 7 contains only floats.
+
+[7]
+
+LaTeX Warning: Text page 8 contains only floats.
+
+
+Overfull \vbox (1.23743pt too high) has occurred while \output is active []
+
+
+[8]
+
+LaTeX Warning: Text page 9 contains only floats.
+
+[9] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 923.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 923.
+ ("DS Table Code.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 923.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 923.
+Package rerunfilecheck Info: File `"DS Table Code".out' has not changed.
+(rerunfilecheck)             Checksum: 67A912E424B98C3B68909037B2041A13;48.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 923.
+ ) 
+Here is how much of TeX's memory you used:
+ 11650 strings out of 492946
+ 182731 string characters out of 3121382
+ 520014 words of memory out of 3000000
+ 15313 multiletter control sequences out of 15000+200000
+ 15356 words of font info for 68 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,11n,43p,387b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\AimalTalhaRehman\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcrm1000.pk><C:/Users/AimalTalhaRehman/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/AimalTalhaRehman/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/User
+s/AimalTalhaRehman/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx9.pfb><C:/Users/AimalTalhaRehman/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/AimalTalhaRehman/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AimalTal
+haRehman/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/Users/AimalTalhaRehman/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/AimalTalhaRehman/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/AimalTalhaRehman/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Us
+ers/AimalTalhaRehman/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/wasy/
+wasy10.pfb>
+Output written on "DS Table Code.pdf" (10 pages, 164076 bytes).
+PDF statistics:
+ 123 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 16393 words of extra memory for PDF output out of 17280 (max. 10000000)
+
